@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html>
+<header>
+   <head>
+	<title> Vainglory: Krul In-Depth Guide </title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" href="style.css">
+   </head>
+</header>
+<main>
+   <body>
+<!--first div tag to separate content from blank section later on-->
+		<div style="width: 100%">
+			<div id="toc_container">
+				<p class="toc_title"><b> CONTENTS </b></p>
+				<hr style="width: 50%"/>
+				<ul style="margin-left: 60px;" class="toc_list">
+					<li><a href="#p-f-header">1 Preface</a></li>
+  					<li><a href="#p-n-a-header">2 Perk and Abilities</a></li>
+					<li><a href="#a-p-header">3 Ability Path</a></li>
+					<li><a href="#i-c-header">4 Item Choices</a></li>
+					<li><a href="#h-t-l-header">5 Threat Level</a></li>
+						<ul>
+							<li> <a href="#threat-lvl-3">5.1 Level 3 </a> </li>
+							<li> <a href="#threat-lvl-4">5.2 Level 4 </a> </li>
+							<li> <a href="#threat-lvl-5">5.3 Level 5 </a> </li>
+							<li> <a href="#threat-lvl-6">5.4 Level 6 </a> </li>
+							<li> <a href="#threat-lvl-7">5.5 Level 7 </a> </li>
+							<li> <a href="#threat-lvl-8">5.6 Level 8 </a> </li>
+							<li> <a href="#threat-lvl-9">5.7 Level 9 </a> </li>
+						</ul>
+					<li><a href="#b-d-i-c-header">6 Item Break Down</a></li>
+					<li><a href="#p-header">7 The Passives</a></li>
+					<li><a href="#f-s-i-header">8 Final Stats with Items</a></li>
+				</ul>
+			</div>
+<!--Title-->
+			<div class="divisionmain">
+				<div class="maintitle">
+					<h1 style="color: white; text-align: left; letter-spacing: 3px; margin-top: 110px"> KRUL: THE UNDYING </h1>
+					<h3 style="color: #b3b3b3; text-align: left; line-height: 1; margin-left: 120px;"> REVISITED </h3>
+				</div>
+<!--Preface.-->
+				<hr id="p-f-header" style="margin-top: 0px;"/>	
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;">PREFACE</h2>
+					<p style="line-height: 1.5; text-indent: 50px;">This page is a partial rewrite of my old hero guide from an old game called Vainglory. Introducing the hero, Krul. Krul is a melee hero that dominates in face-to-face battles because of his rather broken skillset. His skillset involves a movement speed boost, lifesteal, and a long ass stun. The game itself crowned him the 1v1 king. He is one of my most played hero in all of Vainglory's set of heroes, together with Samuel and Ringo.</p>
+					<p style="line-height: 1.5; text-indent: 50px;">I made this guide when I was still in 9th grade back in 2017 so it has its few mathematical and grammatical hiccups. One of the reasons I enjoyed making this guide is its in-depth calculation of skills and items. This has also reached more than 13,000 views in the original website so I am pretty proud of my younger self for making this. This guide was originally written in the <a href="https://www.vaingloryfire.com/vainglory/guide/krul-the-undying-wp-2-10-21022" target="_blank" style="color: #b3b3b3;"> Vaingloryfire </a> website which is still up today. This page was made for the sole purpose of practicing HTML.</p>
+				</div>
+<!--Krul skillset.-->
+				<hr id="p-n-a-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> PERK AND ABILITIES </h2>
+					<h3 style="color: #f5932e"> <b> Shadows Empower Me (Perk) <img src="perks-and-abilities\shadows-empower-me.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: left" hspace="5"/> </b> </h3>
+					   <p> Krul is empowered by the shadows after standing still in brush for 1.5 seconds. Once empowered, Krul briefly gains 2 move speed and his next basic attack will slow the target by 40% for 3 seconds. </p>
+
+					<h3 style="color: #f5932e"> <b> Dead Man's Rush <img src="perks-and-abilities\dead-mans-rush.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: left" hspace="5"/> </b> </h3>
+					   <p> Krul dashes to the target, deals damage and applies basic-attack effects. Activating Dead Man's Rush grants Krul a temporary health barrier. </p>
+
+					<h3 style="color: #f5932e"> <b> Spectral Smite <img src="perks-and-abilities\spectral-smite.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: left" hspace="5"/> </b> </h3>
+					   <p> <span style="color: white"> PASSIVE: </span> Basic attacks and abilities apply a stack of Weakness for a duration that scales with crystal power, for a max of 8 stacks. Each stack reduces the target's damage by 6.2% and increases Krul's lifesteal against the weakened target. <br> <span style="color: white"> ACTIVE: </span> Detonate the stacks to deal damage and regain health based on the number of stacks consumed. </p>
+
+					<h3 style="color: #f5932e"> <b> From Hell's Heart <img src="perks-and-abilities\from-hells-heart.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: left" hspace="5"/> </b> </h3>
+					   <p> Krul pulls Hellrazor from his chest and hurls it in the targeted direction. The sword boomerangs back to Krul after reaching max range. If the sword hits an enemy hero, it deals damage and stuns, then slows the target. Damage and stun duration scales with the distance the sword traveled before hitting the target. (50% at point blank range, 100% at max range, and up to 150% at 'boomerang' range.) </p>
+				</div>
+				<br/>
+<!-- Made the skill and item paths in table form. Might change later for a better visualisation.-->
+				<hr id="a-p-header"/>				
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> ABILITY PATH </h2>
+				   <table class="aptable" style="table-layout: fixed;" align="center">
+				      <tbody>   
+				         <tr>
+				            <th style="width: 200px;color: #f5932e; text-align: left;"> <small> Dead Man's Rush </small> <img src="perks-and-abilities\dead-mans-rush.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: right" hspace="5"/> </th>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 2 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 5 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 8 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 11 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				         </tr>
+				         <tr>
+				            <th style="width: 200px; color: #f5932e; text-align: left;"> <small> Spectral Smite </small> <img src="perks-and-abilities\spectral-smite.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: right" hspace="5"/> </th>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 1 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 3 </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 4 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 7 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 10 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				         </tr>
+				         <tr>
+				            <th style="width: 200px; color: #f5932e; text-align: left;"> <small> From Hell's Heart </small> <img src="perks-and-abilities\from-hells-heart.png" alt="Image Unavailable" style="width: 20px; height: 20px; float: right" hspace="5"/> </th>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 6 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 9 </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="height: 30px; width: 30px"> </td>
+				            <td style="color: white; background-color: orange; height: 30px; width: 30px; text-align: center"> 12 </td>
+				         </tr>
+				      </tbody>
+				   </table>
+				   <br/>
+				</div>
+<!--Item Choices Section-->
+				<hr id="i-c-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> ITEM CHOICES </h2>
+					<table class="ictable" style="table-layout: fixed;" align="center">
+						<tbody>
+							<tr>
+								<td style="width: 125px"> <p> Starting Items </p> </td>
+								<td style="width: 500px">
+									<img src="item-choices/weapon-blade.png" title="Weapon Blade" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/weapon-blade.png" title="Weapon Blade" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/healing-flask.png" title="Healing Flask" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/>
+								</td>
+							</tr>
+							<tr>
+								<td> <p> First Shop Visit </p> </td>
+								<td> 
+								 	<img src="item-choices/tension-bow.png" title="Tension Bow" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/sprint-boots.png" title="Sprint Boots" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/>
+								</td>
+							</tr>
+							<tr>
+								<td> <p> Utility and Defense </p> </td>
+								<td>
+									<img src="item-choices/shiversteel.png" title="Shiversteel" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/aegis.png" title="Aegis" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/>
+								</td>
+							</tr>
+							<tr>
+								<td> <p> Mid to Late Game </p> </td>
+								<td>
+									<img src="item-choices/journey-boots.png" title="Journey Boots" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/poisoned-shiv.png" title="Poisoned Shiv" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/bonesaw.png" title="Bonesaw" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/>
+								</td>
+							</tr>
+							<tr>
+								<td> <p> Final Build </p> </td>
+								<td>
+									<img src="item-choices/tension-bow.png" title="Tension Bow" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/poisoned-shiv.png" title="Poisoned Shiv" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/bonesaw.png" title="Bonesaw"alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/><img src="item-choices/journey-boots.png" title="Journey Boots" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/atlas-pauldron.png" title="Atlas Pauldron"alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/aegis.png" title="Aegis" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/> <img src="item-choices/weapon-infusion.png" title="Weapon Infusion" alt="No image" style="width: 40px; height: 40px; padding-top: 7px"/>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				<br/>
+				</div>
+<!--Hero Threats-->
+				<hr id="h-t-l-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> THREAT LEVEL </h2>
+					<table id="threat-lvl-3" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<tbody>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/baron.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Baron </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> Low mobility. Use <span style="color: #f5932e;"> From Hell's Heart </span> right after he uses <span style="color: #f5932e"> Jump Jets. </span> </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/celeste.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Celeste </p>
+									</td>
+									<td>
+										<p> Squishy hero, easily ganked. Watch out for <span style="color: #f5932e"> Heliogenesis </span> as it provides vision in bushes. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/kestrel.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Kestrel </p>
+									</td>
+									<td>
+										<p> Weapon Kestrel can be more annoying compared to a crystal-built Kestrel.. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/ringo.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Ringo </p>
+									</td>
+									<td>
+										<p> Squishy hero. His <span style="color: #f5932e"> Twirling Silver </span> is his kiting ability. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/vox.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Vox </p>
+									</td>
+									<td>
+										<p> Crystal Vox has relatively higher mobility than his weapon build counterpart. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-4" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/glaive.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Glaive </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> Block Glaive's <span style="color: #f5932e"> Afterburn </span> as it always makes you out of position. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/joule.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Joule </p>
+									</td>
+									<td>
+										<p> Has no rear defense. Just backstab. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/saw.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> SAW </p>
+									</td>
+									<td>
+										<p> <span style="color: #6bd085"> Atlas Pauldron </span> against weapon SAW. Replace AP with <span style="color: #6bd085"> Slumbering Husk </span> to counter crystal SAW. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-5" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFCC00"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/ardan.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Ardan </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> Slows down Krul every teamfight. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/fortress.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Fortress </p>
+									</td>
+									<td>
+										<p> Broken hero. <span style="color: #f5932e"> Attack of the Pack </span> is annoying. Its <span style="color: #f5932e"> Truth of the Tooth </span> and <span style="color: #f5932e"> Law of the Claw </span> can burst you to death. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/phinn.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Phinn </p>
+									</td>
+									<td>
+										<p> Can grant barrier to other enemies. Must be the last kill priority as it takes ages to kill Phinn. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/skaarf.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Skaarf </p>
+									</td>
+									<td>
+										<p> Dodge <span style="color: #f5932e"> Goop </span> to avoid losing movement momentum. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-6" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFCC00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff9900"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/adagio.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Adagio </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> If you have sustain, then he has sustain as well. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/alpha.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Alpha </p>
+									</td>
+									<td>
+										<p> A good Alpha user will make you waste a lot of energy trying to kill her. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/baptiste.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Baptiste </p>
+									</td>
+									<td>
+										<p> Has lifesteal, slow and disable. So basically just Krul with different design and has better range. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/catherine.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Catherine </p>
+									</td>
+									<td>
+										<p> Her <span style="color: #f5932e"> Blast Tremor </span> might have less effect on you but <span style="color: #f5932e"> Merciless Pursuit </span> will definitely put you off. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/grace.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Grace </p>
+									</td>
+									<td>
+										<p> Her AoE stun is critical against melee heroes so try to anticipate and dodge it. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/gwen.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Gwen </p>
+									</td>
+									<td>
+										<p> Can provide vision to bushes with her <span style="color: #f5932e"> Buckshot Bonanza</span>. <span style="color: #f5932e"> Skedaddle </span> is a dispel so your slow and stun might be less effective against her.  </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/lyra.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Lyra </p>
+									</td>
+									<td>
+										<p> Her <span style="color: #f5932e"> Bright Bulwark </span> is a full counter against your <span style="color: #f5932e;"> Dead Man's Rush </span>. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/samuel.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Samuel </p>
+									</td>
+									<td>
+										<p> A Samuel with <span style="color: #6a9ccb"> Frostburn </span> is a pain in the ass. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-7" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFCC00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff9900"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff6600"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/blackfeather.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Blackfeather </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> Blackfeather is very strong in duels so calculate your skill timings well. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/grumpjaw.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Grumpjaw </p>
+									</td>
+									<td>
+										<p> Fat hero (literally). Being eaten with <span style="color: #f5932e"> Stuffed </span> will lose you a couple of <span style="color: #f5932e;"> Weakness </span> stacks. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/krul.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Krul </p>
+									</td>
+									<td>
+										<p> Get the usual <span style="color: #6bd085"> Atlas Pauldron </span> against a weapon Krul. If facing against a crystal Krul, ask your team to prioritize on taking him down first as crystal items amplify his <span style="color: #f5932e;"> Weakness </span> stacks and can burst you down instantly. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/rona.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Rona </p>
+									</td>
+									<td>
+										<p> Rona users are fucking losers. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-8" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFCC00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff9900"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff6600"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff3300"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/churnwalker.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Churnwalker </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> Very annoying early in the game. Has good crowd control abilities so don't be surprised if he turns the tide of the battle in his favor. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/flicker.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Flicker </p>
+									</td>
+									<td>
+										<p> Ask your captain to buy vision items. If you feel strong enough, you can replace any item of your choice for a <span style="color: #bb8ee2;"> Contraption</span>.  </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/idris.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Idris </p>
+									</td>
+									<td>
+										<p> A good Idris user is slippery as fuck. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/koshka.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Koshka </p>
+									</td>
+									<td>
+										<p> If I said a good Idris user can be very slippery, then a good Koshka is untouchable. Aside from your ult, you'll need a lot of disables to encage this pest. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/lance.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Lance </p>
+									</td>
+									<td>
+										<p> Walls ain't your friends when fighting against medieval Terry Crews. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/reim.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Reim </p>
+									</td>
+									<td>
+										<p> High sustain but compensated with low mobility. Arguably one of Krul's best duel contender. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/reza.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Reza </p>
+									</td>
+									<td>
+										<p> Not as mobile as Koshka but can still kite you to your demise. </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+					<br/>
+					<table id="threat-lvl-9" align="center">
+						<thead>
+							<tr>
+								<td style="width: 30px; height: 10px; background-color: #66ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #99ff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ccff00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFFF00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #FFCC00"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff9900"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff6600"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff3300"> </td>
+								<td style="width: 30px; height: 10px; background-color: #ff0000"> </td>
+							</tr>
+						</thead>
+					</table>
+					<table class="thtable" style="table-layout: fixed;" align="center">
+						<body>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/skye.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Skye </p>
+									</td>
+									<td>
+										<p> You are stupid to pick Krul against Skye. Her <span style="color: #f5932e"> Suri Strike </span> will make it almost impossible for you to catch her. Not your fight, so ask your laner or captain to focus on her. </p>
+									</td>
+								</tr>
+								<tr>
+									<td style="width: 125px; height: 20px">
+										<p> <img src="hero-avatars/lorelai.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5"> Lorelai </p>
+									</td>
+									<td style="width: 500px; height: 20px">
+										<p> One of the most broken hero during this patch. <span style="color: #f5932e"> Fish Food </span> and <span style="color: #f5932e"> Splashdown </span> will shut you down every teamfight. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/ozo.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Ozo </p>
+									</td>
+									<td>
+										<p> Monke. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/petal.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Petal </p>
+									</td>
+									<td>
+										<p> Backline hero. Suicidal seeds. Krul's kryptonite. </p>
+									</td>
+								</tr>
+								<tr>
+									<td>
+										<p> <img src="hero-avatars/taka.png" alt="No image" style="width:  25px; height: 25px; float: left" hspace="5";> Taka </p>
+									</td>
+									<td>
+										<p> The most iconic hero of Vainglory. Almost impossible to build <span style="color: #f5932e;"> Weakness </span> stacks without a secondary disable and vision. Will dive to your backline so protect your carry. He's weak early in the game especially without his <span style="color: #6a9ccb"> Aftershock </span> so try to shut him down early on or else he'll snowball to victory.  </p>
+									</td>
+								</tr>
+						</tbody>
+					</table>
+				</div>
+<!--Item Breakdown section-->
+				<hr id="b-d-i-c-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> ITEMIZATIONS </h2>
+					<h3> START </h3>
+					<p> <span style="color: white">Two</span> <span style="color: #aa3920;">Weapon Blade</span> for effective farming in the first five minutes. Alternatively, a <span style="color: #aa3920;">Weapon Blade</span> and a <span style="color: #bb8ee2;">Sprint Boots</span> for early teamfights and a more aggressive five minutes. </p>
+					<h3>FIRST SHOP VISIT</h3>
+					<p> Get <span style="color: #aa3920;">Tension Bow</span>. This might be a bit unorthodox since most Krul players build attack speed (AS) items first (i.e. <span style="color: #aa3920;">Breaking Point</span> or <span style="color: #aa3920;">Poisoned Shiv</span>). My reason for choosing TB first is it can burst down enemies early on. Timing it with <span style="color: #f5932e;">Dead Man's Rush</span> can greatly remove the enemy's health <span style="color: white;">up to 50%</span>. </p>
+					<h3>COUNTERING YOUR ENEMIES</h3>
+					<p> Get <span style="color: #6bd085;">Dragonheart</span> and finish it as soon as possible to a <span style="color: #bb8ee2;">Shiversteel</span>. The <span style="color: white;">40% slow</span> will be enough to catch fleeing enemies without having tier-3 boots. </p>
+					<p> Now every early game has that one enemy hero that deals massive damage to your team. This item guide requires you to <span style="color: white;">build both</span> <span style="color: #6bd085;">Aegis</span> and <span style="color: #6bd085;">Atlas Pauldron</span> but choose what to build first based in the situation. If you are being snowballed by a weapon carry or jungler, best bet to get first. Same principle applies with Aegis against crystal-built heroes. </p>
+					<h3>MID TO LATE GAME</h3>
+					<p> Get <span style="color: #bb8ee2;">Journey Boots</span>.
+					Build your first AS item - <span style="color: #aa3920;">Poisoned Shiv</span>. You can now decide whether to sell Shiversteel or not, because we are then getting our second AS item and also the last and final item, <span style="color: #aa3920;">Bonesaw</span>. I chose Bonesaw over Breaking Point because as Krul, your enemies will build armor so you gotta dig deep on those armor. Not only you but your teammates will also benefit on the shredding you are doing. </p>
+				</div>
+<!--In-Depth Section-->
+				<hr id="p-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;"> THE PASSIVES [IN-DEPTH CALCULATION] </h2>
+					<h3>BASIC DAMAGE</h3>
+					<p>Krul's base damage in maximum level (12) is 146.96. With a full build, you have <span style="color: #aa3920;">Tension Bow's</span> <span style="color: white;">+45</span>, <span style="color: #aa3920;">Poisoned Shiv's</span> <span style="color: white;">+35</span>, and <span style="color: #aa3920;">Bonesaw's</span> <span style="color: white;">+15</span> which totals to <span style="color: #e5de5b;">approx. 237 (236.96 to be precise) basic damage</span>.
+					</p>
+					<p>But your enemies have armor so you won't deal true damage against them.
+						Let us assume that your enemy, <span style="color: white;">Blackfeather</span>, did not build any armor. He is then left with a base armor of 60 in max level. From that assumption, we apply <a href="https://www.vaingloryfire.com/vainglory/guide/complete-guide-to-vainglorys-hidden-stats-and-calculations-by-an-engineer-4311" target="_blank" style="color: #b3b3b3;">@BlueBadger's formula</a>: <br/> <br/>
+						<span style="color: white;">Basic Damage = Basic Attack/(1 + Armor/100)</span>.
+					</p>
+					<p>Substituting the values will give us: <br/> <span style="color: white;">237/(1 + 60/100) =</span> <span style="color: #e5de5b;">148 damage</span>.
+					</p>
+					<p>How about against Metal Jacket?</p>
+					<p>Adding <span style="color: #6bd085;">Metal Jacket's</span> <span style="color: white;">+170</span> from the base armor will give your enemy Blackfeather <span style="color: white;">230 total armor</span>: <br/> <span style="color: white;">237/(1 + 230/100) =</span> <span style="color: #e5de5b;">72 damage</span>. </p>
+					<h3>ADDING ARMOR SHRED</h3>
+					<p>Your damage to a Blackfeather with Metal Jacket is 72. That's just basic attack with no other effects. Let's now add Bonesaw's armor shredding. Bonesaw's shredding effect is maxxed in 8 stacks, with each stack equal to 5% shredded armor. <br/> Assuming you capped Bonesaw's 8-stack shred against Blackfeather, then: <br/>
+						<span style="color: white;">8 Bonesaw stacks * 5% each stack =</span> <span style="color: #e5de5b;">40% armor shredded, with 60% of armor left</span>.</p>
+					<p>The 60% armor left is the new armor value of Blackfeather.
+						<span style="color: white;">60% of 230 is 138.</span><br/>Substituting this value from the first equation will give us: <br/>
+						<span style="color: white;">237/(1+138/100) =</span> <span style="color: #e5de5b;">100 basic damage with Bonesaw's shredding effect</span>.</p>
+					<h3>ADDING ARMORBREAK</h3>
+					<p>In update 2.9, SEMC changed the formula of armor and shield piercing and quoted, "The new pierce formula is in line with how Bonesaw's 		shred effect works, as in, if you have 30% shield pierce and the enemy has 100 shield, when you deal crystal damage to them, the damage 		will be calculated as if they had 70 shield". <br/> Also piercing don't stack anymore so the item with the highest piercing will be applied, in our case, Bonesaw (We can see how useful Bonesaw is during this patch).</p>
+					<p>Assuming you shredded Blackfeather's armor down to 138, we will then apply the Armorbreaker (a.k.a armor piercing) effect.</p>
+					<p>Bonesaw's Armorbreak is 18%. <span style="color: white;">18% of 138 is 25.</span> <br/>With 25 armor pierced, <span style="color: white;">Blackfeather will be left with 113 armor</span>.</p>
+					<p>Replacing the value of armor with our new value, we will have: <br/>
+						<span style="color: white;">237/(1+113/100) =</span> <span style="color: #e5de5b;">111 final basic damage</span>.
+				</div>
+<!--Final Stats-->
+				<hr id="f-s-i-header"/>
+				<div style="padding-left: 20px; padding-right: 20px">
+					<h2 style="text-align: center; margin-bottom: 0;">FINAL STATS WITH ITEMS</h2>
+					<h3>BASIC DAMAGE</h3>
+					<p>Base damage is 147, adding Tension Bow's +45, Poisoned Shiv's +30, and Bonesaw's +15: <br/> <span style="color: #e5de5b;">237 true damage (437 true damage every 6 seconds due to Tension Bow's +180 damage passive)</span>. </p>
+					<h3>ATTACK SPEED</h3>
+					<p>Base attack speed is 1.363, adding Poisoned Shiv's +0.30, and Bonesaw's +0.25: <br/> <span style="color: #e5de5b;">1.913 (191%) attack speed</span>.</p>
+					<h3>DAMAGE PER SECOND</h3>
+					<p>True damage is 237 multiply to 1.913 attack speed:<br/> <span style="color: #e5de5b;">453 true damage per second</span>.</p>
+					<h3>ARMOR</h3>
+					<p>Base armor is 60, adding Atlas Pauldron's +80 and Aegis' +30: <br/><span style="color: #e5de5b;">170 armor</span>.</p>
+					<h3>SHIELD</h3>
+					<p>Base shield is also 60, adding Aegis' +125 and Atlas Pauldron's +30:<br/><span style="color: #e5de5b;">220 shield</span>.</p>
+					<h3>HEALTHPOINTS</h3>
+					<p>Base Health is 2,494, adding Journey Boots' +250 and Aegis' +200: <br/> <span style="color: #e5de5b;">2944 healthpoints</span>.</p>
+					<h3>MOVEMENT SPEED</h3>
+					<p>Base Mobility is 3.4, adding Journey Boots' +0.6:<br/><span style="color: #e5de5b;">4 movement speed</span>.</p>
+				</div>
+				<hr/>
+				<br/>
+				<div>
+					<p style="text-align: center; font-size: 75%;">Copyright © 2017 @sheeemboi | No Rights Reserved</p>
+				</div>
+			</div>
+<!--right section of webpage in static form-->
+			<div class="divisiontop">
+				<p style="text-align: center; margin-bottom: 0;"> <b> AUTHOR'S PROFILE </b> </p>
+				<hr style="width: 50%"/>
+				<table class="prftable">
+					<tbody>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> IGNs: </b> </td>
+							<td style="width: 250px"> SpectrX, Spec, K </td>
+						</tr>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> Vainglory Status: </b> </td>
+							<td style="width: 250px"> Inactive (2016 - 2018) </td>
+						</tr>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> Role(s): </b> </td>
+							<td style="width: 250px"> Jungler (until 2017), Captain (until 2018) </td>
+						</tr>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> Highest Rank Reached: </b> </td>
+							<td style="width: 250px"> The Hotness (Bronze) </td>
+						</tr>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> Signature Hero: </b> </td>
+							<td style="width: 250px"> <img src="hero-avatars/krul.png" title="Krul" alt="No image" style="width: 30px; height: 30px; float: left;"> <img src="hero-avatars/ringo.png" title="Ringo"alt="No image" style="width: 30px; height: 30px; float: left;" hspace="5"> <img src="hero-avatars/samuel.png" title="Samuel" alt="No image" style="width: 30px; height: 30px; float: left;"> </td>
+						</tr>
+						<tr>
+							<td style="width: 250px; text-align: right; color: white;"> <b> Other Games Played: </b> </td>
+							<td style="width: 250px"> PUBG Mobile, DOTA 2 </td>
+						</tr>
+					</tbody>
+				</table>
+				<hr style="width: 50%"/>
+				<br/>
+				<div>
+					<nav align="center">
+						<a href="https://facebook.com/sheeemboi" target="_blank"> <img src="socials-logo/facebook.png" style="width: 40px; height: 40px;" hspace="5"></a>
+						<a href="https://www.reddit.com/user/shemmariano56" target="_blank"> <img src="socials-logo/reddit.png" style="width: 40px; height: 40px;" hspace="5"></a>
+						<a href="https://steamcommunity.com/id/spectrx/" target="_blank"> <img src="socials-logo/steam.png" style="width: 40px; height: 40px;" hspace="5"></a>
+						<a href="https://open.spotify.com/user/shemmariano56?si=df8a828602bf434b" target="_blank"> <img src="socials-logo/spotify.png" style="width: 40px; height: 40px;" hspace="5"></a>
+						<a href="https://www.instagram.com/sheeemboi/" target="_blank"> <img src="socials-logo/instagram.png" style="width: 40px; height: 40px;" hspace="5"></a>
+						<a href="https://twitter.com/sheeemboi" target="_blank"> <img src="socials-logo/twitter.png" style="width: 40px; height: 40px;" hspace="5"></a>
+					</nav>
+				</div>
+			</div>
+		</div>
+   </body>
+</main>
+</html>
