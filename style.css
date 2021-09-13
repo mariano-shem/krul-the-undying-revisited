@@ -75,6 +75,7 @@ h2, h3 {
 	 background: url(wallpapers/right-div.png);
 	background-size: cover;
 	z-index: 2;
+	display: block;
 }
 .divisionbottom {
 	box-sizing: border-box;
